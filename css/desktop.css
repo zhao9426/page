@@ -1,0 +1,240 @@
+ body {
+     margin: 0;
+     padding: 0;
+     font-size: 14px;
+     font-family: 'PingFangSC-Semibold', sans-serif, '微软雅黑', 'Courier New', Courier, monospace
+ }
+
+ .top {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     height: 100vh;
+     min-height: 800px;
+     background-image: url("../img/lunbo1.png");
+     background-size: cover;
+     background-color: #4A4B4D;
+ }
+
+ .header {
+     padding: 22px 0;
+     line-height: 56px;
+     height: 56px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+ }
+
+ .lang {
+     color: #666;
+     font-weight: 600;
+ }
+
+ .lang span {
+     font-size: 16px;
+     font-weight: 600;
+     padding: 4px 8px;
+ }
+
+ .lang span.active {
+     color: #fff;
+ }
+
+ nav.navigate a {
+    text-decoration-line: none;
+    padding: 4px 8px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+ ul.contact {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     display: inline-block;
+ }
+
+ ul.contact>li {
+     display: inline;
+     padding: 8px 16px;
+ }
+
+ .switch-picture {
+     height: calc(100vh - 100px);
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-around;
+ }
+
+ .introduction {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;
+     color: #fff;
+ }
+
+ .introduction h1 {
+     font-family: 'PingFangSC-Semibold', '微软雅黑';
+     width: 12em;
+     text-align: center;
+     color: #fff;
+     font-weight: 800;
+     font-size: 36px;
+     line-height: 42px;
+ }
+
+ .introduction p {
+     text-align: center;
+     font-size: 20px;
+     font-weight: 600;
+     width: 15em;
+     margin: 0;
+     opacity: .8;
+ }
+
+ .arraw-cicle {
+     position: relative;
+     height: 48px;
+     width: 48px;
+     border-radius: 50%;
+     border: 1px solid #666;
+     cursor: pointer;
+ }
+
+ .arraw-cicle img {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform-origin: 0, 0;
+     transform: translate(-50%, -50%);
+ }
+
+ .arraw-cicle img.next {
+     transform: translate(-50%, -50%) rotate(180deg);
+ }
+
+ .form-section {
+     height: 168px;
+     background-color: #3B3D40;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+ }
+
+ .email-controll input {
+     /* width: 250px; */
+     height: 45px;
+     font-size: 20px;
+     padding: 0 8px;
+     border-radius: 4px;
+     border-style: none;
+ }
+
+ input[type="email"] {
+     background-color: #5B5A5c;
+ }
+
+ input::-webkit-input-placeholder {
+     color: #fff;
+ }
+
+ input[type="email"]:focus,
+ select:focus {
+     outline: none;
+     border-radius: 4px;
+ }
+
+ .contact-controll select {
+     /* width: 525px; */
+     height: 45px;
+     font-size: 20px;
+     color: #fff;
+     background-color: #5B5A5c;
+     padding: 4px 8px;
+     border-radius: 4px;
+     border-style: none;
+ }
+
+ select option {
+     background-color: #5B5A5c;
+ }
+
+ button.start-btn {
+     width: 165px;
+     height: 45px;
+     font-size: 14px;
+     font-weight: 600;
+     color: #fff;
+     background-color: #2E71F2;
+     padding: 4px 8px;
+     border-radius: 40px;
+     border-style: none;
+ }
+
+ .foot-end {
+     padding: 90px 0px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-around;
+ }
+
+ .top-item {
+     margin: 20px;
+     flex: 3;
+ }
+
+ .top-item h2 {
+     font-size: 32px;
+     text-align: center;
+     margin: 10px 0px;
+     
+ }
+
+ .top-item-img {
+     text-align: center;
+ }
+
+ .top-item-text {
+     text-align: center;
+     width: 24em;
+     font-size: 20px;
+     color: #666;
+ }
+
+ .detail {
+     margin: 40px auto;
+     margin-top: 20px;
+     width: 100%;
+     flex: 2;
+     text-align: center;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-around;
+ }
+
+ .item {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-around;
+ }
+
+ .item h2 {
+     text-align: center;
+     margin: 10px 0px;
+     font-size: 16px;
+ }
+
+ .item p {
+     text-align: center;
+     margin: 0;
+     width: 14em;
+     font-size: 14px;
+     color: #666;
+ }

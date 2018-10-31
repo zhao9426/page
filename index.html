@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Demo</title>
+    <link href="./css/desktop.css" media="screen and (min-width: 800px)" rel="stylesheet" type="text/css" />
+    <link href="./css/mobile.css" media="screen and (max-width: 800px)" rel="stylesheet" type="text/css" />
+    <link href="./css/animate.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <div class="top">
+        <!-- 头部导航 -->
+        <div class="header">
+            <div class="lang">
+                <span>RU</span>/<span class="active">EN</span>
+            </div>
+            <nav class="navigate">
+                <a href="#" class="animated pulse nav-animate">PROJECTS</a>
+                <a href="#" class="animated pulse nav-animate">ABOUT US</a>
+                <a href="#" class="animated pulse nav-animate">STORIES</a>
+                <a href="#" class="animated pulse nav-animate">CONTACT</a>
+            </nav>
+            <ul class="contact">
+                <li><img src="./img/fb.png" alt=""></li>
+                <li><img src="./img/tw.png" alt=""></li>
+                <li><img src="./img/ins.png" alt=""></li>
+            </ul>
+        </div>
+        <!-- 轮播图 -->
+        <div class="switch-picture">
+            <div class=" animated heartBeat  arraw-cicle" id="prev">
+                <img src="./img/la.png" alt="" >
+            </div>
+            <div class="introduction">
+                <div class="into-pictrue">
+                    <img src="./img/bk-logo.png" id="picture"  class="animated zoomIn into-pic-animate"></img>
+                </div>
+                <h1 id="introduction-text" class="animated rollIn into-text-animate">We Build Objects and Spaces</h1>
+                <p id="introduction-subText" class="animated  jackInTheBox into-text-animate">support bright students today for a better tomorrow</p>
+            </div>
+            <div class=" animated heartBeat  arraw-cicle" id="next">
+                <img src="./img/la.png"  class="next" alt="">
+            </div>
+        </div>
+    </div>
+
+    <form action="post" class="form-section">
+        <div class="email-controll">
+            <input type="email" placeholder="E-mail">
+        </div>
+        <div class="contact-controll">
+            <select name="contact" id="contact">
+                <option value="facebook">facebook</option>
+                <option value="twitter">twitter</option>
+                <option value="instram">instram</option>
+            </select>
+        </div>
+        <div>
+            <button class="start-btn">LET'S START</button>
+        </div>
+    </form>
+
+    <div class="foot-end">
+        <div class="top-item">
+            <div class="top-item-img">
+                <img src="./img/heart.png" class="animated heartBeat  top-img-animate"/>
+            </div>
+            <h2>Your Next More</h2>
+            <p class="animated zoomIn top-item-text">Helping talented students unlock their full potential Help us help them thrive!</p>
+        </div>
+        <div class="detail">
+            <div class="detail-item item">
+                <div class="item-img" >
+                    <img src="./img/dbc.png"  class="animated  slideInUp img-animate"/>
+                </div>
+                <h2 class="animated rotateIn  h2-text-animate">EXPERINCE</h2>
+                <p class="animated zoomIn text-animate">72% of the students attended on scholarship</p>
+            </div>
+            
+            <div class="detail-item item">
+                <div class="item-img">
+                    <img src="./img/dollar.png"  class="animated slideInUp img-animate" />
+                </div>
+                <h2 class="animated rotateIn  h2-text-animate">ACADEMIC TALENTS</h2>
+                <p class="animated zoomIn text-animate">More than 100 scholarship have been awarded</p>
+            </div>
+            <div class="detail-item item">
+                <div class="item-img">
+                    <img src="./img/sheart.png"  class="animated slideInUp img-animate" />
+                </div>
+                <h2 class="animated rotateIn  h2-text-animate">OUR FUTURE</h2>
+                <p class="animated zoomIn text-animate">20% of its students body currently under scholarship</p>
+            </div>
+            <div class="detail-item item">
+                <div class="item-img">
+                    <img src="./img/pepole.png"  class="animated slideInUp img-animate" />
+                </div>
+                <h2 class="animated rotateIn  h2-text-animate">BRILLIANT MINDS</h2>
+                <p class="animated zoomIn text-animate">Anatolia College has always relied on donations</p>
+            </div>
+        </div>
+    </div> 
+    <script src="./js/index.js"></script>   
+</body>
+</html>
